@@ -5,5 +5,5 @@ from django.http import HttpResponse
 def home(request,url_value):
     print("............url value........",url_value)
     # return HttpResponse("Suman is my name")
-
+    print("Suman SUcessfully run and fixed error")
     return render(request,"core/home.html")
